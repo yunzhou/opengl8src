@@ -1,0 +1,53 @@
+﻿Build started 1/09/2015 12:05:41 PM.
+     1>Project "C:\Users\simuser\Documents\GitHub\ComputerGraphics\opengl_8th\01\chapter01\ch01_trangle\ch01_trangle.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\ch01_trangle.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\include /Zi /nologo /W3 /WX- /MP /O2 /Oi /Oy- /GL /D WIN32 /D _MBCS /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\lib\LoadShaders.cpp triangles.cpp
+         LoadShaders.cpp
+         triangles.cpp
+     1>triangles.cpp(26): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>triangles.cpp(26): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>triangles.cpp(27): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>triangles.cpp(27): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>triangles.cpp(28): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>triangles.cpp(28): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>triangles.cpp(29): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>triangles.cpp(29): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>triangles.cpp(30): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>triangles.cpp(30): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>triangles.cpp(31): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>triangles.cpp(31): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\simuser\Documents\GitHub\ComputerGraphics\opengl_8th\01\chapter01\Release\ch01_trangle.exe" /NOLOGO /LIBPATH:..\..\..\lib freeglut_static_vs2010.lib freeglut_static_vs2010_d.lib glew_static_vs2010.lib glew_static_vs2010_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\ch01_trangle.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\simuser\Documents\GitHub\ComputerGraphics\opengl_8th\01\chapter01\Release\ch01_trangle.pdb" /OPT:NOREF /OPT:NOICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\simuser\Documents\GitHub\ComputerGraphics\opengl_8th\01\chapter01\Release\ch01_trangle.lib" /MACHINE:X86 Release\LoadShaders.obj
+         Release\triangles.obj
+         Generating code
+         Finished generating code
+     1>freeglut_static_vs2010.lib(freeglut_callbacks.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglut_static_vs2010.lib(freeglut_callbacks.obj)' or at 'C:\Users\simuser\Documents\GitHub\ComputerGraphics\opengl_8th\01\chapter01\Release\vc100.pdb'; linking object as if no debug info
+     1>freeglut_static_vs2010.lib(freeglut_cursor.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglut_static_vs2010.lib(freeglut_cursor.obj)' or at 'C:\Users\simuser\Documents\GitHub\ComputerGraphics\opengl_8th\01\chapter01\Release\vc100.pdb'; linking object as if no debug info
+     1>freeglut_static_vs2010.lib(freeglut_display.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglut_static_vs2010.lib(freeglut_display.obj)' or at 'C:\Users\simuser\Documents\GitHub\ComputerGraphics\opengl_8th\01\chapter01\Release\vc100.pdb'; linking object as if no debug info
+     1>freeglut_static_vs2010.lib(freeglut_font.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglut_static_vs2010.lib(freeglut_font.obj)' or at 'C:\Users\simuser\Documents\GitHub\ComputerGraphics\opengl_8th\01\chapter01\Release\vc100.pdb'; linking object as if no debug info
+     1>freeglut_static_vs2010.lib(freeglut_font_data.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglut_static_vs2010.lib(freeglut_font_data.obj)' or at 'C:\Users\simuser\Documents\GitHub\ComputerGraphics\opengl_8th\01\chapter01\Release\vc100.pdb'; linking object as if no debug info
+     1>freeglut_static_vs2010.lib(freeglut_init.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglut_static_vs2010.lib(freeglut_init.obj)' or at 'C:\Users\simuser\Documents\GitHub\ComputerGraphics\opengl_8th\01\chapter01\Release\vc100.pdb'; linking object as if no debug info
+     1>freeglut_static_vs2010.lib(freeglut_input_devices.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglut_static_vs2010.lib(freeglut_input_devices.obj)' or at 'C:\Users\simuser\Documents\GitHub\ComputerGraphics\opengl_8th\01\chapter01\Release\vc100.pdb'; linking object as if no debug info
+     1>freeglut_static_vs2010.lib(freeglut_joystick.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglut_static_vs2010.lib(freeglut_joystick.obj)' or at 'C:\Users\simuser\Documents\GitHub\ComputerGraphics\opengl_8th\01\chapter01\Release\vc100.pdb'; linking object as if no debug info
+     1>freeglut_static_vs2010.lib(freeglut_main.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglut_static_vs2010.lib(freeglut_main.obj)' or at 'C:\Users\simuser\Documents\GitHub\ComputerGraphics\opengl_8th\01\chapter01\Release\vc100.pdb'; linking object as if no debug info
+     1>freeglut_static_vs2010.lib(freeglut_menu.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglut_static_vs2010.lib(freeglut_menu.obj)' or at 'C:\Users\simuser\Documents\GitHub\ComputerGraphics\opengl_8th\01\chapter01\Release\vc100.pdb'; linking object as if no debug info
+     1>freeglut_static_vs2010.lib(freeglut_spaceball.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglut_static_vs2010.lib(freeglut_spaceball.obj)' or at 'C:\Users\simuser\Documents\GitHub\ComputerGraphics\opengl_8th\01\chapter01\Release\vc100.pdb'; linking object as if no debug info
+     1>freeglut_static_vs2010.lib(freeglut_state.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglut_static_vs2010.lib(freeglut_state.obj)' or at 'C:\Users\simuser\Documents\GitHub\ComputerGraphics\opengl_8th\01\chapter01\Release\vc100.pdb'; linking object as if no debug info
+     1>freeglut_static_vs2010.lib(freeglut_stroke_mono_roman.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglut_static_vs2010.lib(freeglut_stroke_mono_roman.obj)' or at 'C:\Users\simuser\Documents\GitHub\ComputerGraphics\opengl_8th\01\chapter01\Release\vc100.pdb'; linking object as if no debug info
+     1>freeglut_static_vs2010.lib(freeglut_stroke_roman.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglut_static_vs2010.lib(freeglut_stroke_roman.obj)' or at 'C:\Users\simuser\Documents\GitHub\ComputerGraphics\opengl_8th\01\chapter01\Release\vc100.pdb'; linking object as if no debug info
+     1>freeglut_static_vs2010.lib(freeglut_structure.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglut_static_vs2010.lib(freeglut_structure.obj)' or at 'C:\Users\simuser\Documents\GitHub\ComputerGraphics\opengl_8th\01\chapter01\Release\vc100.pdb'; linking object as if no debug info
+     1>freeglut_static_vs2010.lib(freeglut_window.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'freeglut_static_vs2010.lib(freeglut_window.obj)' or at 'C:\Users\simuser\Documents\GitHub\ComputerGraphics\opengl_8th\01\chapter01\Release\vc100.pdb'; linking object as if no debug info
+     1>glew_static_vs2010.lib(glew.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'glew_static_vs2010.lib(glew.obj)' or at 'C:\Users\simuser\Documents\GitHub\ComputerGraphics\opengl_8th\01\chapter01\Release\vc100.pdb'; linking object as if no debug info
+         ch01_trangle.vcxproj -> C:\Users\simuser\Documents\GitHub\ComputerGraphics\opengl_8th\01\chapter01\Release\ch01_trangle.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\simuser\Documents\GitHub\ComputerGraphics\opengl_8th\01\chapter01\Release\ch01_trangle.exe;#1" /manifest Release\ch01_trangle.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\ch01_trangle.unsuccessfulbuild".
+         Touching "Release\ch01_trangle.lastbuildstate".
+     1>Done Building Project "C:\Users\simuser\Documents\GitHub\ComputerGraphics\opengl_8th\01\chapter01\ch01_trangle\ch01_trangle.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.72

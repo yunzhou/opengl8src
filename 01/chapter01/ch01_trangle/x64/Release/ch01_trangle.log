@@ -1,0 +1,42 @@
+﻿Build started 1/09/2015 11:43:17 AM.
+     1>Project "C:\Users\simuser\Documents\GitHub\ComputerGraphics\opengl_8th\01\chapter01\ch01_trangle\ch01_trangle.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "x64\Release\ch01_trangle.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\simuser\Documents\GitHub\ComputerGraphics\opengl_8th\01\chapter01\x64\Release\ch01_trangle.exe" /NOLOGO /LIBPATH:C:\Users\simuser\Documents\GitHub\ComputerGraphics\opengl_8th\01\chapter01\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\ch01_trangle.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\simuser\Documents\GitHub\ComputerGraphics\opengl_8th\01\chapter01\x64\Release\ch01_trangle.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\simuser\Documents\GitHub\ComputerGraphics\opengl_8th\01\chapter01\x64\Release\ch01_trangle.lib" /MACHINE:X64 x64\Release\LoadShaders.obj
+         x64\Release\triangles.obj
+     1>LoadShaders.obj : error LNK2001: unresolved external symbol __glewDeleteShader
+     1>LoadShaders.obj : error LNK2001: unresolved external symbol __glewCreateShader
+     1>LoadShaders.obj : error LNK2001: unresolved external symbol __glewLinkProgram
+     1>LoadShaders.obj : error LNK2001: unresolved external symbol __glewCompileShader
+     1>LoadShaders.obj : error LNK2001: unresolved external symbol __glewShaderSource
+     1>LoadShaders.obj : error LNK2001: unresolved external symbol __GLEW_VERSION_4_1
+     1>LoadShaders.obj : error LNK2001: unresolved external symbol __glewGetProgramiv
+     1>LoadShaders.obj : error LNK2001: unresolved external symbol __glewGetShaderiv
+     1>LoadShaders.obj : error LNK2001: unresolved external symbol __glewCreateProgram
+     1>LoadShaders.obj : error LNK2001: unresolved external symbol __glewAttachShader
+     1>triangles.obj : error LNK2001: unresolved external symbol __glewBindBuffer
+     1>triangles.obj : error LNK2001: unresolved external symbol __glutCreateWindowWithExit
+     1>triangles.obj : error LNK2001: unresolved external symbol __glutInitWithExit
+     1>triangles.obj : error LNK2001: unresolved external symbol __glewVertexAttribPointer
+     1>triangles.obj : error LNK2001: unresolved external symbol glewInit
+     1>triangles.obj : error LNK2001: unresolved external symbol __glewGenVertexArrays
+     1>triangles.obj : error LNK2001: unresolved external symbol glutInitContextProfile
+     1>triangles.obj : error LNK2001: unresolved external symbol __glewUseProgram
+     1>triangles.obj : error LNK2001: unresolved external symbol glutInitContextVersion
+     1>triangles.obj : error LNK2001: unresolved external symbol __glewBufferData
+     1>triangles.obj : error LNK2001: unresolved external symbol __glewBindVertexArray
+     1>triangles.obj : error LNK2001: unresolved external symbol glutInitDisplayMode
+     1>triangles.obj : error LNK2001: unresolved external symbol __glewGenBuffers
+     1>triangles.obj : error LNK2001: unresolved external symbol glutMainLoop
+     1>triangles.obj : error LNK2001: unresolved external symbol glutInitWindowSize
+     1>triangles.obj : error LNK2001: unresolved external symbol glutDisplayFunc
+     1>triangles.obj : error LNK2001: unresolved external symbol __glewEnableVertexAttribArray
+     1>C:\Users\simuser\Documents\GitHub\ComputerGraphics\opengl_8th\01\chapter01\x64\Release\ch01_trangle.exe : fatal error LNK1120: 27 unresolved externals
+     1>Done Building Project "C:\Users\simuser\Documents\GitHub\ComputerGraphics\opengl_8th\01\chapter01\ch01_trangle\ch01_trangle.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.17
